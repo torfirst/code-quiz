@@ -89,7 +89,7 @@ function checkAnswer(questionIndex, questionChoice) {
   } else {
     clearInterval(timerInterval);
     timerCount = 0;
-    timer.textContent = timerCount.toString(); /
+    timer.textContent = timerCount.toString(); 
     viewSubmitScore();
   }
 }
@@ -134,7 +134,7 @@ function showHighScores() {
     li.textContent = `${score.initials} - ${score.score}`;
     scoreList.append(li);
   });
-  
+
   currentQuestionIndex = 0; // resets the current question index
   document.getElementById('initials').value = ''; // resets initials text
 }
