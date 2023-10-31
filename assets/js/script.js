@@ -31,6 +31,9 @@ var choiceButtons = document.getElementById('choice-buttons');
 var currentQuestionIndex = 0;
 var submitHighScoresView = document.getElementById('high-scores');
 var highScoresListView = document.getElementById('high-scores-list');
+if ( JSON.parse(localStorage.getItem('highScores'))  === null ) {
+  localStorage.setItem('highScores', JSON.stringify([]));
+}
 var highScores = JSON.parse(localStorage.getItem('highScores')); // defines high score array for display usage and adding to
 var startBtn = document.querySelector('.start-quiz');
 var submitBtn = document.querySelector('submit-highscore');
@@ -109,6 +112,8 @@ function submitHighScore() {
     score
   });
 
+  score = 0; // resets score back to 0
+  
   // disable submit button to prevent users from entering an empty value for initials
   if (initials.value === "") {
     submitBtn.disabled = true;
