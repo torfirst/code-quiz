@@ -25,7 +25,10 @@ Q5 +10 = 30
 
 ## Credits
 
-I borrowed the questions and layout from the gif that was provided as a reference. It can be found in the assets folder and looks like this. ![Homework Demo Gif](/assets/images/04-web-apis-homework-demo.gif). I also received some guidance from a BCS tutor, David Elutilo, who helped me understand how to apply the dynamic HTML to switch from the intro text into the questions, and gave me advice on how to approach the displayNextQuestion function.
+I borrowed the questions and layout from the gif that was provided as a reference. It can be found in the assets folder and looks like this:
+![Homework Demo Gif](/assets/images/04-web-apis-homework-demo.gif). 
+
+I also received some guidance from a BCS tutor, David Elutilo, who helped me understand how to apply the dynamic HTML to switch from the intro text into the questions, and gave me advice on how to approach the displayNextQuestion function.
 
 I used [this link](https://www.geeksforgeeks.org/how-to-create-css-rule-for-all-elements-except-one-class/#) to figure out how to target all elements except for one for button styling. I used [this link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) and [this link](https://www.w3schools.com/js/js_function_parameters.asp) for the checkAnswer function. I also looked to the mini project from the Web APIs week for guidance.
 
